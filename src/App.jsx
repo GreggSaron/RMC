@@ -1,8 +1,14 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+
+import Header from "./components/header";
 
 function App() {
-  return (<div className='mainContainer'></div >)
+  return (
+    <div className="mainContainer">
+      <Header />
+    </div>
+  );
 }
 
-export default App
+export default App;

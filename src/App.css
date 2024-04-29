@@ -1,4 +1,5 @@
-body{
-    background-image: url(./assets/Background.svg);
-    height: 8000px;
+body {
+  background: url(./assets/Background.svg), #101218;
+  background-repeat: repeat, repeat;
+  background-size: 55%;
 }
