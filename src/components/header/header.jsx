@@ -1,8 +1,20 @@
 import "./header.css";
 
 function Header() {
-  return <div className="header">
-    <img src="public\logo.svg"/>
+  return <div className="header" style={{
+    display: 'flex',
+    alignItems: 'center',
+  }}>
+    <img src="public\logo.svg"style={{
+      padding: '0 10% 0 100px'
+    }}/>
+    <div className="navContainer">
+      <button className="navContainerBtn">THE STUDIO</button>
+      <button className="navContainerBtn">PROJECTS</button>
+      <button className="navContainerBtn">ARCHITECTURE</button>
+      <button className="navContainerBtn">BLOG</button>
+    </div>
+    <button className="contactBtn">CONTACT</button>
   </div>;
 }
 
