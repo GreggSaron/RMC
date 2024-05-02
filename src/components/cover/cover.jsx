@@ -2,7 +2,9 @@ import React from "react";
 
 const Cover = () => {
   return (
-    <div>
+    <div style={{
+      height: '100vh'
+    }}>
       <p>Architecture design</p>
       <p>
         Professional <br />

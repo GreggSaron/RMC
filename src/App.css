@@ -2,11 +2,17 @@ body {
   background: url(./assets/Background.svg), #101218;
   background-repeat: repeat, repeat;
   background-size: 55%;
+  margin: 0;
 }
 
 .mainContainer {
   font-family:  Roboto;
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(./assets/cover/sofa.jpeg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
 }

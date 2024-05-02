@@ -1,1 +1,2 @@
-export * from "./cover";
+import Cover from "./cover";
+export default Cover;
