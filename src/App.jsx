@@ -3,6 +3,7 @@ import "./App.css";
 
 import Header from "./components/header";
 import Cover from "./components/cover";
+import { OurSpecializations } from "./components/ourSpecializations";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       }} />
       <Header />
       <Cover />
+      <OurSpecializations />
     </div>
   );
 }
