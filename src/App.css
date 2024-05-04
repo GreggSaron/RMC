@@ -11,8 +11,4 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(./assets/cover/sofa.jpeg);
-  background-size: 50%;
-  background-repeat: no-repeat;
-  background-position: 100% 0%;
 }
