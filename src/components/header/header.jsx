@@ -6,7 +6,7 @@ function Header() {
     alignItems: 'center',
   }}>
     <img src="public\logo.svg"style={{
-      padding: '0 10% 0 100px'
+      padding: '0 10% 0 40px'
     }}/>
     <div className="navContainer">
       <button className="navContainerBtn">THE STUDIO</button>

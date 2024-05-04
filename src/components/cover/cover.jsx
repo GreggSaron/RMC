@@ -5,7 +5,7 @@ const Cover = () => {
     <div style={{
       height: '100vh',
       width: '50vw',
-      marginLeft: '100px',
+      marginLeft: '40px',
       marginRight: 'auto',
       marginTop: '50px'
     }}>
