@@ -3,6 +3,7 @@ body {
   background-repeat: repeat, repeat;
   background-size: 55%;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .mainContainer {
